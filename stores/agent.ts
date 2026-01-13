@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import type { AgentState, ThoughtEntry, Command } from '~/types'
 
-const DEFAULT_CREDITS = 100
+const DEFAULT_CREDITS = 10
 const CREDITS_STORAGE_KEY = 'crystal_agent_credits'
 
 // Load credits from localStorage

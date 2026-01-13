@@ -98,7 +98,7 @@ function handleCloseCreditModal() {
     <header class="header">
       <div class="header-content">
         <div class="header-logo">
-          <a href="https://crystalagency.io" target="_blank" class="logo-link">
+          <a href="https://crystalagency.io" class="logo-link">
             <span class="font-druk text-2xl">Crystal</span>
             <span class="font-druk text-2xl text-purple-500">Agent</span>
           </a>
@@ -108,7 +108,7 @@ function handleCloseCreditModal() {
             <span class="credits-label">Credits</span>
             <span class="credits-value">{{ store.credits }}/{{ store.maxCredits }}</span>
           </div>
-          <a href="https://crystalagency.io" target="_blank" class="btn-bracket">
+          <a href="https://crystalagency.io" class="btn-bracket">
             [<span>Agency</span>]
           </a>
           <WalletButton />
