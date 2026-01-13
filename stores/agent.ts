@@ -11,11 +11,6 @@ function loadCredits(): number {
   if (stored) {
     const parsed = parseInt(stored, 10)
     if (!isNaN(parsed) && parsed >= 0) {
-      // If default was increased, give users the new default
-      if (parsed < DEFAULT_CREDITS) {
-        saveCredits(DEFAULT_CREDITS)
-        return DEFAULT_CREDITS
-      }
       return parsed
     }
   }
