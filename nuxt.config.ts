@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
 
+  // Ensure server routes work on Vercel
+  nitro: {
+    preset: 'vercel',
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
